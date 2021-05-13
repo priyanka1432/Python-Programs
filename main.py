@@ -2,8 +2,15 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-x=int(input("Enter the number"))
-if x<0:
-    print("It's a negative number")
+x=int(input("Enter the first number"))
+y=int(input("Enter the first number"))
+z=int(input("Enter the first number"))
+
+
+
+if x>=y and x>=z:
+    print(x)
+elif y>=x and y>=z:
+    print(y)
 else:
-    print("It's a positive number")
+    print(z)
