@@ -1,7 +1,4 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# To Check the given number is positive or negative
 x=int(input("Enter the number"))
 if x<0:
     print("It's a negative number")
