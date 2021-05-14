@@ -1,0 +1,10 @@
+"""#
+   # #
+   # # #
+   # # #"""
+rows=int(input("Enter the rows"))
+def pattern2(rows):
+    for i in range(1,rows+1):
+        print("# "*i,end=" ")
+        print()
+pattern2(rows)
