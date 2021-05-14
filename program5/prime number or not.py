@@ -1,4 +1,4 @@
-# To check the given number is positive or not
+# To check the given number is prime or not
 x=int(input("Enter the number"))
 if x<=1:
     print("not prime")
